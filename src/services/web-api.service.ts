@@ -1,5 +1,3 @@
-import { I18nManager } from 'react-native';
-
 export class WebApi {
     debug = false;
     apiUrl = 'https://dummyapi.io/data/v1';
