@@ -13,7 +13,7 @@ const TagItem = (props: TagItemProps) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.genreName}>{`# ${item}`}</Text>
+            <Text style={styles.genreName}>{`#${item}`}</Text>
         </View>
     )
 }
