@@ -1,5 +1,5 @@
-import { Image, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import React, { Children } from 'react';
+import { ImageBackground, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
 import colors from '../../../assets/colors';
 import Fonts from '../../../assets/Fonts';
@@ -33,7 +33,7 @@ export default React.memo(PostImage);
 
 const styles = StyleSheet.create({
     likesFooter: {
-        width: scale(390),
+        width: scale(400),
         paddingVertical: verticalScale(5),
         flexDirection: 'row',
         justifyContent: 'flex-start',
