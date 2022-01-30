@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "974286607507",
+    "project_id": "notificationbeyond-57164",
+    "storage_bucket": "notificationbeyond-57164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974286607507:android:3ac85b726462265654a966",
+        "android_client_info": {
+          "package_name": "com.beyondapptask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974286607507-nvtqmltfppou0pl3968hkq7e29t86et8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUBpVFt3EjqIC1yaa2J98hS2c-OP3xQp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974286607507-nvtqmltfppou0pl3968hkq7e29t86et8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,6 +5,8 @@ import colors from '../../../assets/colors';
 import { moderateScale, scale, verticalScale } from '../../../utils/Scaling';
 import PostImage from './PostImage';
 import PostOwnerItem from './PostOwnerItem';
+import { useDispatch } from 'react-redux';
+import { handleNotificationLocally } from '../../../redux/actions/FcmAction';
 
 export interface IPost {
     id: string,
@@ -31,11 +33,12 @@ interface PostItemProps {
 const PostItem = (props: PostItemProps) => {
     const { item, navigation } = props
     const { owner, publishDate, image, likes } = item
+    const dispatch = useDispatch()
     const renderPostHeader = () => {
         return (
             <View style={styles.headerContainer}>
                 <PostOwnerItem owner={owner} publishDate={publishDate} />
-                <TouchableOpacity activeOpacity={0.8} style={styles.dotsButton} onPress={() => { }}>
+                <TouchableOpacity activeOpacity={0.8} style={styles.dotsButton} onPress={() => { dispatch(handleNotificationLocally()) }}>
                     <Entypo name='dots-three-vertical' style={styles.dotsIcon} />
                 </TouchableOpacity>
             </View>
